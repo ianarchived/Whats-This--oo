@@ -54,17 +54,6 @@ function flashRainbowColors(callback) {
     }, 2000); // Stop changing colors after 2 seconds and execute the callback
 }
 
-// Function to move the button to a random position
-function moveButtonToRandomPosition(button) {
-    var windowWidth = window.innerWidth;
-    var windowHeight = window.innerHeight;
-    var randomX = Math.floor(Math.random() * (windowWidth - button.offsetWidth));
-    var randomY = Math.floor(Math.random() * (windowHeight - button.offsetHeight));
-    button.style.position = 'absolute';
-    button.style.left = randomX + 'px';
-    button.style.top = randomY + 'px';
-}
-
 // Function to display the cat.gif initially
 function displayCat() {
     // Get the container where the image will be displayed
