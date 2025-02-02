@@ -18,7 +18,7 @@ function selectOption(option) {
 
          // Increase font size of "Yes" button
          var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
-         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by * 2px
+         var newSize = parseFloat(currentFontSize) * 1.2; // Increase font size by 20%
          yesButton.style.fontSize = newSize + 'px';
 
         // Change text on the "No" button based on the number of times it was pressed
