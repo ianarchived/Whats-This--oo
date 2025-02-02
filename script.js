@@ -30,8 +30,20 @@ function selectOption(option) {
         } else if (noButtonPressCount === 3) {
             noButton.innerText = 'Absolutely sure?';
             moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 4) {
+            noButton.innerText = 'Legit ba?';
+            moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 5) {
+            noButton.innerText = 'Bakit?';
+            moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 6) {
+            noButton.innerText = 'Sige na one time lang';
+            moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 7) {
+            noButton.innerText = 'PLEAAAAASSEEE NA';
+            moveButtonToRandomPosition(noButton);
         } else {
-            noButton.innerText = 'No more changes!';
+            noButton.innerText = 'PLEAAAAASSEEEWKASKDF';
             moveButtonToRandomPosition(noButton);
         }
 
