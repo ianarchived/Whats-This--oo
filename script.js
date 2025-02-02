@@ -37,9 +37,30 @@ function selectOption(option) {
             noButton.innerText = 'Bakit?';
             moveButtonToRandomPosition(noButton);
         } else if (noButtonPressCount === 6) {
-            noButton.innerText = 'Sige na one time lang';
+            noButton.innerText = 'Ano ba?';
             moveButtonToRandomPosition(noButton);
         } else if (noButtonPressCount === 7) {
+            noButton.innerText = 'Ano trip mo?';
+            moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 8) {
+            noButton.innerText = 'Mag yes ka na kasi';
+            moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 9) {
+            noButton.innerText = 'Makulit ka ah';
+            moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 10) {
+            noButton.innerText = 'Pag nag yes ka may regalo ka sakin';
+            moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 11) {
+            noButton.innerText = '....';
+            moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 12) {
+            noButton.innerText = 'ANO BA BAT AYAW MO!?!@@)_*#!';
+            moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 13) {
+            noButton.innerText = 'Sige na one time lang';
+            moveButtonToRandomPosition(noButton);
+        } else if (noButtonPressCount === 14) {
             noButton.innerText = 'PLEAAAAASSEEE NA';
             moveButtonToRandomPosition(noButton);
         } else {
